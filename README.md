@@ -1,19 +1,48 @@
-# 🎈 Blank app template
 
-A simple Streamlit app template for you to modify!
+Employee Matching System
+This project aims to develop a Python application that matches employees to project requirements based on their skills and department. It is designed to streamline the assignment of team members to projects by ensuring the right skills are matched with the right tasks.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Features
+Employee Skill Matching: Matches employees to projects based on their skillsets and departmental roles.
+Data Integration: Utilizes data from internal company resources and APIs to ensure accurate matching.
+Automation: Automatically recommends employees for specific projects, reducing manual effort.
+Weekly Dashboard: Provides a real-time dashboard tracking the status of employee matches and project assignments.
+Project Structure
+app.py: The main Python file for the employee matching application.
+requirements.txt: A list of dependencies required for the project.
+Installation
+Clone the repository:
 
-### How to run it on your own machine
+bash
+Copy code
+git clone https://github.com/yourusername/employee-matching.git
+Install dependencies:
 
-1. Install the requirements
+bash
+Copy code
+pip install -r requirements.txt
+Set up the virtual environment (if not already done):
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+bash
+Copy code
+python -m venv venv
+source venv/bin/activate  # On Windows use venv\Scripts\activate
+Usage
+Run the employee matching application:
 
-2. Run the app
+bash
+Copy code
+python app.py
+View the weekly dashboard by navigating to:
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+bash
+Copy code
+localhost:8501  # Streamlit app running locally
+Update the employee data by adding or editing records in the data/ folder.
+
+Contributing
+Fork this repository.
+Create a new branch (git checkout -b feature-name).
+Make your changes and commit them (git commit -am 'Add feature').
+Push to the branch (git push origin feature-name).
+Open a Pull Request.
